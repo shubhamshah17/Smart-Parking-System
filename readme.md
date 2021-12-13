@@ -18,3 +18,13 @@ Smart parking system in a software application enables user to park their car us
 
 - **Fare calculation**: The fare is automatically calculated as per the time booked and per hour charge and is generated at the time of leaving.
 
+<h2>📸 SCREENSHOT</h2>
+<p>
+  <a href="">
+    <img src="https://i.postimg.cc/7ZNj6L2M/1.png" alt="Home Page" width="auto" height="auto">
+  </a>
+  <a href="">
+    <img src="https://i.postimg.cc/258MBfdp/2.png" alt="Home Page" width="auto" height="auto">
+  </a>
+</p>
+
