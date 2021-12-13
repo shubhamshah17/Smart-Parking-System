@@ -1,6 +1,6 @@
 <h1 align="center">SMART-PARKING-SYSTEM   🚗</h1><br>
 
-Smart parking system in a software application enables user to park their car using the facility that lets the user know about the available vaccant space to park their car.
+A smart parking system is a software application enables users to park their car using the facility that lets the user know about the available vacant space to park their car.
 
 ## Software Requirements:
 - Languages: Java, XML, Python
