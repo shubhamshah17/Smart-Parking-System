@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".utils.helpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="8dp"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24sp"
+                    android:textColor="#000000"
+                    android:text="PARKING LOT RULES"/>
+                <View android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#ffeef0f2"
+                    android:layout_marginTop="8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Use Parking lot at your own risk"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• No camping, soliciting or loitering"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• No overnight parking."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Park only in designated spots."
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• Vehicles will be towed at owner's expense if rules are violated"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="About"
+                    android:textColor="#000000"
+                    android:textSize="22sp"/>
+                <View android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#ffeef0f2"
+                    android:layout_marginTop="8dp"/>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/contact_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginVertical="10dp"
+                    app:cardUseCompatPadding="true"
+                    android:layout_marginHorizontal="30dp"
+                    app:cardCornerRadius="8dp"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/emailImg"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/ic_email" />
+
+                        <TextView
+                            android:id="@+id/writeToUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/emailImg"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="WRITE TO US"
+                            android:textStyle="italic"
+                            android:textColor="#000000"
+                            android:textSize="16sp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="8AM to 11PM"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/writeToUs" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffeef0f2"/>
+                <TextView
+                    android:id="@+id/share"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#2A2E43"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_share"
+                    android:text="Share" />
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffeef0f2"/>
+                <TextView
+                    android:id="@+id/con_playStore"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#2A2E43"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:drawablePadding="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_playstore"
+                    android:text="Rate us on play store" />
+                <View android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#ffeef0f2"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version 1.0.0"
+                android:textSize="16sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
