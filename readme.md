@@ -21,10 +21,10 @@ Smart parking system in a software application enables user to park their car us
 <h2>📸 SCREENSHOT</h2>
 <p>
   <a href="">
-    <img src="https://i.postimg.cc/7ZNj6L2M/1.png" alt="Home Page" width="200" height="500">
+    <img src="https://i.postimg.cc/7ZNj6L2M/1.png" alt="Home Page" width="300" height="500">
   </a>
   <a href="">
-    <img src="https://i.postimg.cc/258MBfdp/2.png" alt="Home Page" width="auto" height="auto">
+    <img src="https://i.postimg.cc/258MBfdp/2.png" alt="Home Page" width="300" height="500">
   </a>
 </p>
 
